@@ -1,0 +1,10 @@
+<idea-plugin>
+    <id>cn.enaium.treesitter.viewer</id>
+    <name>TreeSitterViewer</name>
+    <vendor email="enaium@outlook.com" url="https://www.enaium.cn">Enaium</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow factoryClass="cn.enaium.treesitter.viewer.TreeSitterViewer" id="TreeSitterViewer"
+                    anchor="right" icon="/META-INF/pluginIcon.svg"/>
+    </extensions>
+</idea-plugin>

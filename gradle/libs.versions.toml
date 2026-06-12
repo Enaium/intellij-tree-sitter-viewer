@@ -1,0 +1,187 @@
+[versions]
+treeSitter = "0.26.6"
+treeSitterAgda = "1.3.3"
+treeSitterBash = "0.25.1"
+treeSitterC = "0.24.1"
+treeSitterCSharp = "0.23.1"
+treeSitterCPP = "0.23.4"
+treeSitterCSS = "0.25.0"
+treeSitterEmbeddedTemplate = "0.25.0"
+treeSitterGo = "0.25.0"
+treeSitterHaskell = "0.23.1"
+treeSitterHTML = "0.23.2"
+treeSitterJava = "0.23.5"
+treeSitterJavaScript = "0.25.0"
+treeSitterJSON = "0.24.8"
+treeSitterJulia = "0.25.0"
+treeSitterKotlin = "0.3.8.1"
+treeSitterOcaml = "0.23.2"
+treeSitterPHP = "0.24.2"
+treeSitterPython = "0.25.0"
+treeSitterRegex = "1.0.0"
+treeSitterRuby = "0.23.1"
+treeSitterRust = "0.24.0"
+treeSitterScala = "0.24.0"
+treeSitterTSX = "0.23.2"
+treeSitterTypescript = "0.23.2"
+treeSitterVerilog = "1.0.3"
+treeSitterGraphql = "master-a"
+treeSitterHack = "main-a"
+treeSitterHcl = "1.1.0a"
+treeSitterHocon = "master-a"
+treeSitterJq = "main-a"
+treeSitterJson5 = "master-a"
+treeSitterLalrpop = "master-a"
+treeSitterLatex = "0.3.0a"
+treeSitterLean = "main-a"
+treeSitterLlvm = "main-a"
+treeSitterLlvmMir = "master-a"
+treeSitterLua = "2.1.3a"
+treeSitterM68k = "0.2.7a"
+treeSitterMake = "main-a"
+treeSitterMarkdown = "0.7.1a"
+treeSitterMeson = "1.2.1"
+treeSitterNginx = "main-a"
+treeSitterNim = "0.6.0"
+treeSitterNix = "master-a"
+treeSitterObjc = "main-a"
+treeSitterOhm = "main-a"
+treeSitterOrg = "1.3.1a"
+treeSitterP4 = "main-a"
+treeSitterPascal = "0.9.1a"
+treeSitterPerl = "1.1.0"
+treeSitterPgn = "1.0.5"
+treeSitterPod = "release-a"
+treeSitterProto = "main-a"
+treeSitterQmljs = "0.1.2a"
+treeSitterQuery = "0.3.0"
+treeSitterR = "main-a"
+treeSitterRacket = "0.3.0a"
+treeSitterRasi = "0.1.0a"
+treeSitterRe2c = "main-a"
+treeSitterRego = "master-a"
+treeSitterRst = "0.1.0a"
+treeSitterScheme = "0.6.0a"
+treeSitterScss = "1.0.0a"
+treeSitterSexp = "main-a"
+treeSitterSmali = "1.0.0a"
+treeSitterSourcepawn = "0.7.2"
+treeSitterSparql = "0.1.0a"
+treeSitterSql = "gh-pages-a"
+treeSitterSqlBigquery = "0.6.0a"
+treeSitterSqlite = "main-a"
+treeSitterSshClientConfig = "2024.5.9"
+treeSitterSvelte = "0.11.0a"
+treeSitterSwift = "0.5.0"
+treeSitterTablegen = "master-a"
+treeSitterTact = "main-a"
+treeSitterThrift = "0.5.0a"
+treeSitterToml = "0.5.1a"
+treeSitterTurtle = "0.1.0a"
+treeSitterTwig = "1.0.2a"
+treeSitterVhdl = "main-a"
+treeSitterVue = "0.2.1a"
+treeSitterWast = "main-a"
+treeSitterWat = "main-a"
+treeSitterWgsl = "main-a"
+treeSitterYaml = "0.5.0a"
+treeSitterYang = "master-a"
+treeSitterZig = "main-a"
+kotlin = "2.4.0"
+intellij = "2.13.1"
+changelog = "2.5.0"
+
+[libraries]
+tree-sitter = { module = "io.github.bonede:tree-sitter", version.ref = "treeSitter" }
+tree-sitter-agda = { module = "io.github.bonede:tree-sitter-agda", version.ref = "treeSitterAgda" }
+tree-sitter-bash = { module = "io.github.bonede:tree-sitter-bash", version.ref = "treeSitterBash" }
+tree-sitter-c = { module = "io.github.bonede:tree-sitter-c", version.ref = "treeSitterC" }
+tree-sitter-c-sharp = { module = "io.github.bonede:tree-sitter-c-sharp", version.ref = "treeSitterCSharp" }
+tree-sitter-cpp = { module = "io.github.bonede:tree-sitter-cpp", version.ref = "treeSitterCPP" }
+tree-sitter-css = { module = "io.github.bonede:tree-sitter-css", version.ref = "treeSitterCSS" }
+tree-sitter-embedded-template = { module = "io.github.bonede:tree-sitter-embedded-template", version.ref = "treeSitterEmbeddedTemplate" }
+tree-sitter-go = { module = "io.github.bonede:tree-sitter-go", version.ref = "treeSitterGo" }
+tree-sitter-haskell = { module = "io.github.bonede:tree-sitter-haskell", version.ref = "treeSitterHaskell" }
+tree-sitter-html = { module = "io.github.bonede:tree-sitter-html", version.ref = "treeSitterHTML" }
+tree-sitter-java = { module = "io.github.bonede:tree-sitter-java", version.ref = "treeSitterJava" }
+tree-sitter-javascript = { module = "io.github.bonede:tree-sitter-javascript", version.ref = "treeSitterJavaScript" }
+tree-sitter-json = { module = "io.github.bonede:tree-sitter-json", version.ref = "treeSitterJSON" }
+tree-sitter-julia = { module = "io.github.bonede:tree-sitter-julia", version.ref = "treeSitterJulia" }
+tree-sitter-kotlin = { module = "io.github.bonede:tree-sitter-kotlin", version.ref = "treeSitterKotlin" }
+tree-sitter-ocaml = { module = "io.github.bonede:tree-sitter-ocaml", version.ref = "treeSitterOcaml" }
+tree-sitter-php = { module = "io.github.bonede:tree-sitter-php", version.ref = "treeSitterPHP" }
+tree-sitter-python = { module = "io.github.bonede:tree-sitter-python", version.ref = "treeSitterPython" }
+tree-sitter-regex = { module = "io.github.bonede:tree-sitter-regex", version.ref = "treeSitterRegex" }
+tree-sitter-ruby = { module = "io.github.bonede:tree-sitter-ruby", version.ref = "treeSitterRuby" }
+tree-sitter-rust = { module = "io.github.bonede:tree-sitter-rust", version.ref = "treeSitterRust" }
+tree-sitter-scala = { module = "io.github.bonede:tree-sitter-scala", version.ref = "treeSitterScala" }
+tree-sitter-tsx = { module = "io.github.bonede:tree-sitter-tsx", version.ref = "treeSitterTSX" }
+tree-sitter-typescript = { module = "io.github.bonede:tree-sitter-typescript", version.ref = "treeSitterTypescript" }
+tree-sitter-verilog = { module = "io.github.bonede:tree-sitter-verilog", version.ref = "treeSitterVerilog" }
+tree-sitter-graphql = { module = "io.github.bonede:tree-sitter-graphql", version.ref = "treeSitterGraphql" }
+tree-sitter-hack = { module = "io.github.bonede:tree-sitter-hack", version.ref = "treeSitterHack" }
+tree-sitter-hcl = { module = "io.github.bonede:tree-sitter-hcl", version.ref = "treeSitterHcl" }
+tree-sitter-hocon = { module = "io.github.bonede:tree-sitter-hocon", version.ref = "treeSitterHocon" }
+tree-sitter-jq = { module = "io.github.bonede:tree-sitter-jq", version.ref = "treeSitterJq" }
+tree-sitter-json5 = { module = "io.github.bonede:tree-sitter-json5", version.ref = "treeSitterJson5" }
+tree-sitter-lalrpop = { module = "io.github.bonede:tree-sitter-lalrpop", version.ref = "treeSitterLalrpop" }
+tree-sitter-latex = { module = "io.github.bonede:tree-sitter-latex", version.ref = "treeSitterLatex" }
+tree-sitter-lean = { module = "io.github.bonede:tree-sitter-lean", version.ref = "treeSitterLean" }
+tree-sitter-llvm = { module = "io.github.bonede:tree-sitter-llvm", version.ref = "treeSitterLlvm" }
+tree-sitter-llvm-mir = { module = "io.github.bonede:tree-sitter-llvm-mir", version.ref = "treeSitterLlvmMir" }
+tree-sitter-lua = { module = "io.github.bonede:tree-sitter-lua", version.ref = "treeSitterLua" }
+tree-sitter-m68k = { module = "io.github.bonede:tree-sitter-m68k", version.ref = "treeSitterM68k" }
+tree-sitter-make = { module = "io.github.bonede:tree-sitter-make", version.ref = "treeSitterMake" }
+tree-sitter-markdown = { module = "io.github.bonede:tree-sitter-markdown", version.ref = "treeSitterMarkdown" }
+tree-sitter-meson = { module = "io.github.bonede:tree-sitter-meson", version.ref = "treeSitterMeson" }
+tree-sitter-nginx = { module = "io.github.bonede:tree-sitter-nginx", version.ref = "treeSitterNginx" }
+tree-sitter-nim = { module = "io.github.bonede:tree-sitter-nim", version.ref = "treeSitterNim" }
+tree-sitter-nix = { module = "io.github.bonede:tree-sitter-nix", version.ref = "treeSitterNix" }
+tree-sitter-objc = { module = "io.github.bonede:tree-sitter-objc", version.ref = "treeSitterObjc" }
+tree-sitter-ohm = { module = "io.github.bonede:tree-sitter-ohm", version.ref = "treeSitterOhm" }
+tree-sitter-org = { module = "io.github.bonede:tree-sitter-org", version.ref = "treeSitterOrg" }
+tree-sitter-p4 = { module = "io.github.bonede:tree-sitter-p4", version.ref = "treeSitterP4" }
+tree-sitter-pascal = { module = "io.github.bonede:tree-sitter-pascal", version.ref = "treeSitterPascal" }
+tree-sitter-perl = { module = "io.github.bonede:tree-sitter-perl", version.ref = "treeSitterPerl" }
+tree-sitter-pgn = { module = "io.github.bonede:tree-sitter-pgn", version.ref = "treeSitterPgn" }
+tree-sitter-pod = { module = "io.github.bonede:tree-sitter-pod", version.ref = "treeSitterPod" }
+tree-sitter-proto = { module = "io.github.bonede:tree-sitter-proto", version.ref = "treeSitterProto" }
+tree-sitter-qmljs = { module = "io.github.bonede:tree-sitter-qmljs", version.ref = "treeSitterQmljs" }
+tree-sitter-query = { module = "io.github.bonede:tree-sitter-query", version.ref = "treeSitterQuery" }
+tree-sitter-r = { module = "io.github.bonede:tree-sitter-r", version.ref = "treeSitterR" }
+tree-sitter-racket = { module = "io.github.bonede:tree-sitter-racket", version.ref = "treeSitterRacket" }
+tree-sitter-rasi = { module = "io.github.bonede:tree-sitter-rasi", version.ref = "treeSitterRasi" }
+tree-sitter-re2c = { module = "io.github.bonede:tree-sitter-re2c", version.ref = "treeSitterRe2c" }
+tree-sitter-rego = { module = "io.github.bonede:tree-sitter-rego", version.ref = "treeSitterRego" }
+tree-sitter-rst = { module = "io.github.bonede:tree-sitter-rst", version.ref = "treeSitterRst" }
+tree-sitter-scheme = { module = "io.github.bonede:tree-sitter-scheme", version.ref = "treeSitterScheme" }
+tree-sitter-scss = { module = "io.github.bonede:tree-sitter-scss", version.ref = "treeSitterScss" }
+tree-sitter-sexp = { module = "io.github.bonede:tree-sitter-sexp", version.ref = "treeSitterSexp" }
+tree-sitter-smali = { module = "io.github.bonede:tree-sitter-smali", version.ref = "treeSitterSmali" }
+tree-sitter-sourcepawn = { module = "io.github.bonede:tree-sitter-sourcepawn", version.ref = "treeSitterSourcepawn" }
+tree-sitter-sparql = { module = "io.github.bonede:tree-sitter-sparql", version.ref = "treeSitterSparql" }
+tree-sitter-sql = { module = "io.github.bonede:tree-sitter-sql", version.ref = "treeSitterSql" }
+tree-sitter-sql-bigquery = { module = "io.github.bonede:tree-sitter-sql-bigquery", version.ref = "treeSitterSqlBigquery" }
+tree-sitter-sqlite = { module = "io.github.bonede:tree-sitter-sqlite", version.ref = "treeSitterSqlite" }
+tree-sitter-ssh-client-config = { module = "io.github.bonede:tree-sitter-ssh-client-config", version.ref = "treeSitterSshClientConfig" }
+tree-sitter-svelte = { module = "io.github.bonede:tree-sitter-svelte", version.ref = "treeSitterSvelte" }
+tree-sitter-swift = { module = "io.github.bonede:tree-sitter-swift", version.ref = "treeSitterSwift" }
+tree-sitter-tablegen = { module = "io.github.bonede:tree-sitter-tablegen", version.ref = "treeSitterTablegen" }
+tree-sitter-tact = { module = "io.github.bonede:tree-sitter-tact", version.ref = "treeSitterTact" }
+tree-sitter-thrift = { module = "io.github.bonede:tree-sitter-thrift", version.ref = "treeSitterThrift" }
+tree-sitter-toml = { module = "io.github.bonede:tree-sitter-toml", version.ref = "treeSitterToml" }
+tree-sitter-turtle = { module = "io.github.bonede:tree-sitter-turtle", version.ref = "treeSitterTurtle" }
+tree-sitter-twig = { module = "io.github.bonede:tree-sitter-twig", version.ref = "treeSitterTwig" }
+tree-sitter-vhdl = { module = "io.github.bonede:tree-sitter-vhdl", version.ref = "treeSitterVhdl" }
+tree-sitter-vue = { module = "io.github.bonede:tree-sitter-vue", version.ref = "treeSitterVue" }
+tree-sitter-wast = { module = "io.github.bonede:tree-sitter-wast", version.ref = "treeSitterWast" }
+tree-sitter-wat = { module = "io.github.bonede:tree-sitter-wat", version.ref = "treeSitterWat" }
+tree-sitter-wgsl = { module = "io.github.bonede:tree-sitter-wgsl", version.ref = "treeSitterWgsl" }
+tree-sitter-yaml = { module = "io.github.bonede:tree-sitter-yaml", version.ref = "treeSitterYaml" }
+tree-sitter-yang = { module = "io.github.bonede:tree-sitter-yang", version.ref = "treeSitterYang" }
+tree-sitter-zig = { module = "io.github.bonede:tree-sitter-zig", version.ref = "treeSitterZig" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+platform = { id = "org.jetbrains.intellij.platform", version.ref = "intellij" }
+changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
